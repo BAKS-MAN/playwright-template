@@ -1,0 +1,21 @@
+{
+  "name": "testathon2025",
+  "version": "1.0.0",
+  "description": "Testathon2025 UI test automation framework",
+  "main": "index.js",
+  "scripts": {
+    "show-report": "allure generate ./allure-results --clean & allure open ./allure-report -h localhost -p 8081"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.17",
+    "allure-commandline": "^2.34.0",
+    "allure-playwright": "^3.2.2"
+  },
+  "dependencies": {
+    "prettier": "^3.5.3"
+  }
+}
