@@ -18,11 +18,7 @@ The following software are required:
   https://nodejs.org/en/download/
   ```
 
-1. Clone the repo using below URL
-
-```sh
-https://gitlab.devops.telekom.de/.git
-```
+1. Clone the repo
 
 2. To avoid components download issues is recommended to configure proxy:
 ```
